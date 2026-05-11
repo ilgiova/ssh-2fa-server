@@ -1,0 +1,8 @@
+# pass
+@include common-auth
+
+# if pass right ask for 2fa
+auth required pam_google_authenticator.so
+
+@include common-account
+@include common-session

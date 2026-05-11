@@ -1,0 +1,9 @@
+Port 22
+PermitRootLogin no
+UsePAM yes
+
+KbdInteractiveAuthentication yes
+PasswordAuthentication yes
+
+# ask for pass and 2fa
+AuthenticationMethods password,keyboard-interactive
